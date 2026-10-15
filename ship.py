@@ -5,7 +5,7 @@ import math
 class ship:
     rot = math.radians(90)
     acceleration = .05
-    drag = .005
+    drag = .025
     direct = pygame.Vector2(0, -1)
     pos = pygame.Vector2(0, 0)
     shotpos = pygame.Vector2(0, 0)
